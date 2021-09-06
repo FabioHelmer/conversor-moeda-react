@@ -1,0 +1,41 @@
+.conversor {
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  background: linear-gradient(to bottom, #52cc99 5%, #52cc99 100%);
+  background-color: #52cc99;
+  border-radius: 19px;
+  border: 1px solid #52cc99;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #52cc99;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #52cc99 5%, #52cc99 100%);
+  background-color: #52cc99;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.myInput {
+  padding: 3px;
+  font-size: 16px;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 14px;
+  border-style: solid;
+  color: #4d4b4d;
+  text-shadow: 1px 0px 0px rgb(42 42 42 / 75%);
+  text-align: center;
+}
